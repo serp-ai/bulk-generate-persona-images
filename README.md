@@ -8,6 +8,8 @@ The images are generated in on the fly from an `input.csv` file you provide that
 
 The deepface library is used to identify if the generated image is male or female and then the image is saved in the respective folder, with the person's name as the filename.
 
+The images are cropped to remove the stupid watermark crap that the website adds to the bottom of the images.
+
 ## How to use
 
 1. Clone the repository to your local machine.
