@@ -8,4 +8,10 @@ The images are generated in on the fly from an `input.csv` file you provide that
 
 The deepface library is used to identify if the generated image is male or female and then the image is saved in the respective folder, with the person's name as the filename.
 
+## How to use
+
+1. Click the link below to launch the Jupyter notebook in Binder.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/serp-ai/bulk-generate-persona-images/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Fserp-ai%2Fbulk-generate-persona-images-thispersondoesnotexist%2Fblob%2Fmain%2Fbulk-download-images.ipynb)
+
+2. Wait for it to load & install everything (it might take a few minutes, so go play some hacky sack or something while you wait... or connect with me on social @devinschumacher / @dvnschmchr)
