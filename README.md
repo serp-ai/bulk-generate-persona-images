@@ -15,16 +15,21 @@ This repository contains a Jupyter notebook that can be used to download a large
 3. Create an `input.csv` file with the following columns: `Name` and `Gender`.
 4. Run the Jupyter notebook!
 
-// I dont recommend using MyBinder (it's slow AF)
-<!-- 
-## How to use (MyBinder)
+## Helpful Prompts
 
-1. Click the link below to launch the Jupyter notebook in Binder.
+To get a list of names to use, I recommend using the free ChatGPT 3.5 and a prompt like this:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/serp-ai/bulk-generate-persona-images/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Fserp-ai%2Fbulk-generate-persona-images-thispersondoesnotexist%2Fblob%2Fmain%2Fbulk-download-images.ipynb)
+```markdown
 
-1. Wait for it to load & install everything. It takes forever though, so go play some hacky sack or something while you wait... or connect with us online at:
+create a bullet point list of 200 `firstname lastname` pairs that are common american names for MALES in this format:
 
-- [SERP AI](https://serp.ai)
-- [@dvnschmchr](https://serp.ly/@devin/linkedin)
-- [Linkedin(https://serp.ly/@devin/linkedin)] -->
+- firstname lastname, Male
+
+<|###|>
+IMPORTANT:
+
+* make sure to do the number i say. do not cut it short
+* make sure to give a large variety of different firstnames 
+* make sure to give a large variety of different lastnames
+<|###|>
+```
