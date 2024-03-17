@@ -15,6 +15,8 @@ This repository contains a Jupyter notebook that can be used to download a large
 3. Create an `input.csv` file with the following columns: `Name` and `Gender`.
 4. Run the Jupyter notebook!
 
+Important: Make sure that your csv follows the format in the `input-template.csv` example (no space before the gender)
+
 ## Helpful Prompts
 
 To get a list of names to use, I recommend using the free ChatGPT 3.5 and a prompt like this:
@@ -23,7 +25,7 @@ To get a list of names to use, I recommend using the free ChatGPT 3.5 and a prom
 
 create a bullet point list of 200 `firstname lastname` pairs that are common american names for MALES in this format:
 
-- firstname lastname, Male
+- Firstname Lastname,Gender
 
 <|###|>
 IMPORTANT:
