@@ -23,15 +23,16 @@ To get a list of names to use, I recommend using the free ChatGPT 3.5 and a prom
 
 ```markdown
 
-create a bullet point list of 200 `firstname lastname` pairs that are common american names for MALES in this format:
+create a bullet point list of 200 `Firstname Lastname` pairs that are common american names for MALES in this format:
 
 - Firstname Lastname,Gender
 
-<|###|>
+
+------
 IMPORTANT:
 
 * make sure to do the number i say. do not cut it short
 * make sure to give a large variety of different firstnames 
 * make sure to give a large variety of different lastnames
-<|###|>
+* NO SPACE AFTER THE COMMA
 ```
